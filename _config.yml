@@ -1,0 +1,13 @@
+# Site settings
+title: 204 - No Content
+email: darthcas@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Christian Amaral is a twenty-something CS dropout who writes web stuff for a living. Not exactly meaningful bio material.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://chrisamaral.github.io" # the base hostname & protocol for your site
+twitter_username: this_christian
+github_username:  chrisamaral
+lastfm_username: darthcas
+
+# Build settings
+markdown: kramdown

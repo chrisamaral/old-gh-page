@@ -1,0 +1,28 @@
+---
+layout: post
+title:  YOU HAD ONE BLOG
+date:   2014-10-12 19:00:00
+categories: update
+---
+
+###~~~ what###
+*I think you will find* that this is actually my fifth website/blog-thing. All the others died a tragic death.
+
+###~~~ why###
+Because all the main blog plataforms suck, ever since I heard about static site generators (not much longer than a year ago) I was hooked. But I'm a stupid skriddie, so I started with metalsmith. 
+
+Turns out `<SPOILER>` the docs are as awful as you'd expect `</SPOILER>` and the whole thing feels too node-ish for just a html generator. So I gave up being a smartass and installed Jekyll.
+
+![inorite](/assets/img/its.magic.jpg)
+
+###WTF###
+So here am I, looking at this folder containing <u>literally</u> thousands of html documents as I realize something embarassing. Although having spent the last 5 years writing web sites/apps I can't remember the last time I wrote a fucking html document (close tags and all).
+
+<figure>
+  <img src='/assets/img/smoke.crack.jpg' />
+  <figcaption class='large'>ONLY PLAIN TEXT IS REAL</figcaption>
+</figure>
+
+...but <del>even after admitting this, there is no catharsis</del> that's all, thanks for reading and welcome to my new blog. 
+
+Wish me luck.

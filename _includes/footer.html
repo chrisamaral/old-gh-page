@@ -1,0 +1,60 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Also, <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            <a href="https://github.com/{{ site.github_username }}">
+              <i class='fa fa-github'></i><span class="username">@void</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <i class='fa fa-twitter'></i><span class="username">@twitter</span>
+            </a>
+          </li>
+          {% endif %}
+          
+          <li>
+            <a href="https://www.youtube.com/channel/UCrXTzCzZRIYAiSjeUtSjyDw">
+              <i class='fa fa-youtube-play'></i><span class="username">@youtube</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="http://last.fm/user/darthcas">
+              <i class='fa fa-lastfm'></i><span class="username">@music</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="http://www.imdb.com/user/ur27305729">
+              <i class='fa fa-film'></i><span class="username">@cinema, tv</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">{{ site.description }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
