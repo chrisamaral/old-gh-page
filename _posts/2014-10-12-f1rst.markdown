@@ -13,16 +13,9 @@ Because I'm a failure with blog plataforms, ever since I heard about static site
 
 ![inorite](/assets/img/its.magic.jpg)
 
-Unsurprisingly, the docs are awful and the whole thing feels too node-ish for just a html generator. At some point I gave being a smartass and just installed Jekyll. It's awesome, of course, but you see... here I am, looking at this folder with <u>literally</u> thousands of .html files as I realize something utterly embarassing: although having spent the last 5 years creating web sites/apps I can't remember the last time I wrote a godamn fucking html document (close tags and all). 
-
-###HOLY MOTHER OF UNIX, STALLMAN!###
+Unsurprisingly, the docs are awful and the whole thing feels too node-ish for just a html generator. So I gave up being a smartass and installed Jekyll. It's awesome, of course, but you see... here I am, looking at this folder with <u>literally</u> thousands of .html files as I realize something utterly embarassing: although having spent the last 5 years creating web sites/apps I can't remember the last time I wrote a godamn fucking html document (close tags and all), damn...
 
 <figure>
   <img src='/assets/img/smoke.crack.jpg' alt='metal' />
   <figcaption class='large'>ONLY PLAIN TEXT IS REAL</figcaption>
 </figure>
-
-I'm a bad person. <del>But even after admitting this, there is no catharsis...</del> 
-<br/>That's all, thanks for reading and welcome to my new blog. 
-
-Wish me luck.
