@@ -231,25 +231,3 @@ pre {
 .text-center{
     text-align: center;
 }
-
-li > ul {
-  font-size: smaller;
-}
-
-dd {
-  margin-top: .3em;
-  padding-left: 18pt;
-}
-dd:not(:first-of-type) {
-  font-size: smaller;
-}
-dd:first-of-type {
-  font-weight: 600;
-}
-dt:first-child {
-  font-weight: 600;
-}
-
-dt:nth-child(2) {
-  font-style: italic;
-}

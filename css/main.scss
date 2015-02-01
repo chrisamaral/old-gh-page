@@ -59,3 +59,103 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+#curriculum-page {
+  background-color: white;
+  color: rgb(30, 30, 30);
+  padding: 2em 2vw 3em 2vw;
+  @media screen {
+    box-shadow: 4px 6px 0 rgba(255, 255, 255, 0.3);
+    border: 1px solid black;
+  }
+
+
+  a {
+    color: darken(blue, 15%);
+  }
+  a:hover {
+    color: blue;
+  }
+
+  dd {
+    position: relative;
+    padding-left: 12pt;
+
+    @media only screen and (min-width: 768px) {
+      padding-left: 18pt;
+    }
+
+    transition: height 1s ease;
+
+    > .wrapped {
+      position: relative;
+      transform: translateY(0);
+      visibility: visible;
+      opacity: 1;
+      transition: transform .5s ease, visibility .5s ease, opacity .2s ease .3s;
+      margin-bottom: 0;
+    }
+
+    .toggle {
+      display: inline-block;
+      position: absolute;
+
+      &.full {
+        display: block;
+        position: relative;
+        text-align: right;
+      }
+
+      right: 0; bottom: 0;
+      font-size: smaller;
+      color: rgba(0, 0, 0, 0.4);
+
+      &:hover {
+        color: rgba(0, 0, 0, 0.6);
+        text-decoration: underline;
+      }
+      &:before {
+        cursor: pointer;
+        content: 'ocultar';
+      }
+
+      @media print {
+        display: none !important;
+      }
+    }
+
+    &.zip {
+      > .wrapped {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-100%);
+        transition: transform .3s ease, visibility 0s ease, opacity 0s ease;
+      }
+      .toggle:before {
+        content: 'expandir';
+      }
+    }
+  }
+  dl {
+    padding: 0 1em;
+  }
+  dt {
+    &:before {
+      content: ' ';
+      display: block;
+    }
+
+    &.inline {
+      display: inline;
+      font-weight: 600;
+      &:after {
+        content: ' - ';
+      }
+      & + dd {
+        display: inline;
+        padding-left: 0;
+      }
+    }
+  }
+}
