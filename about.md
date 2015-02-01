@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
+title: about
+bodyTitle: About me
 permalink: /about/
 ---
 
-But even after admitting this, there is no catharsis.
+nope.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  YOU HAD ONE BLOG
+bodyTitle: YOU HAD ONE BLOG
 date:   2014-10-12 19:00:00
 categories: update
 ---
