@@ -88,6 +88,9 @@ LazyLoad.js([
       var bdElem = document.getElementById('birthday');
 
       React.render(<FancyAge date={new Date(parseInt(bdElem.dataset.timestamp, 10))} />, bdElem);
+    },
+    slide: function () {
+
     }
   };
 
