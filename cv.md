@@ -52,7 +52,10 @@ permalink: /cv/
   <dt>Desenvolvedor</dt>
   <dt class='inline'>Tecnologias</dt>
   <dd><em>javascript, php, nodejs, APIs Google, java (android), MySQL, mongo, memcached, Oracle, munin</em></dd>
-  <dt>Nenhuma equipe</dt>
+  <dd style='padding-left: 0'>
+    <div class='wrapped'><div id='EngCarousel'></div></div>
+    <a class='toggle'></a>
+  </dd>
 </dl>
 
 <dl>
@@ -65,16 +68,15 @@ permalink: /cv/
     <div class='wrapped'>
       <p>
         Minha atividade principal nesse estágio era desenvolver extensões para os sistemas de monitoração utilizados pela empresa, em geral eram simples testes em vbscript. Havia também um bugtracker/trouble ticket
-        que tinha sido desenvolvido em coldfusion em parceria com uma software house mas que nós acabamos herdando... cheguei a
+        que tinha sido desenvolvido em coldfusion em parceria com uma software house mas que nós acabamos herdando. Cheguei a
         desenvolver algumas features novas nesse sistema.
       </p>
       <p>
         Eventualmente eu arranjei uma desculpa pra continuar evoluindo minhas habilidades em javascript e php,
         disso nasceu uma ferramenta web que automatizava alguma das nossas atividades rotineiras e tediosas.
         Uma das coisas legais nessa ferramenta era um painel que permitia configurar parâmetros de
-        monitoração de servidores remotos. Por trás dos panos a configuração era um arquivo XML, que eram acessados
-        remotamente via sftp usando alguma biblioteca obscura do php. E a atualização, pasmen, era
-        <em>*automática*</em> via ajax. Enfim, podia ter sido pior.
+        monitoração de servidores remotos. A configuração era feita através de arquivos XML, que eram acessados
+        remotamente via sftp. E a atualização, pasmen, era <em>*automática*</em> via ajax.
       </p>
     </div>
     <a class='toggle'></a>
@@ -93,7 +95,7 @@ permalink: /cv/
       Vindo de um background de desktop e linguagens estáticas, php, html e javascript pareciam uma abominação
       e o apache me levava as lágrimas regularmente.
       Mas o fato é que eu não sabia nada sobre como as coisas realmente funcionavam e não dava a mínima pras
-      melhores práticas.... Naturalmente que isso mudou em poucos meses, esse tempo lá foi especial porque em
+      melhores práticas. Naturalmente que isso mudou eventualmente, e esse tempo que passei lá foi especial porque em
       2010 foi quando js+ajax começou a ganhar momento no Brasil, trabalhei em 2 ou 3 sites nessa linha de
       renderização parcial com php + requisição ajax e jQuery por todo lado.
     </p>

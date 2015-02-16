@@ -2,7 +2,7 @@
   "name": "chrisamaral",
   "version": "0.0.1",
   "scripts": {
-    "jsx": "jsx --extension jsx --watch assets/jsx assets/js",
+    "jsx": "jsx --harmony --extension jsx --watch assets/jsx assets/js",
     "server": "jekyll serve --detach",
     "jekyll": "jekyll build --watch"
   }
