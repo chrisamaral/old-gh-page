@@ -52,19 +52,8 @@ permalink: /cv/
   <dt>Desenvolvedor</dt>
   <dt class='inline'>Tecnologias</dt>
   <dd><em>javascript, php, nodejs, APIs Google, java (android), MySQL, mongo, memcached, Oracle, munin</em></dd>
-  <dt>Equipe de 1</dt>
-  <dd>
-    <div class='wrapped'>
-      <div id='carousel'>
-        <div class='slide'>
-          <div class='video'>
-            <iframe data-src="https://www.youtube.com/embed/Vtxe7rXbeeg" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class='caption'>
-          </div>
-        </div>
-      </div>
-    </div>
+  <dd style='padding-left: 0'>
+    <div class='wrapped'><div id='EngCarousel'></div></div>
     <a class='toggle'></a>
   </dd>
 </dl>

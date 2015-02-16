@@ -114,6 +114,7 @@ $on-laptop:        800px;
         color: rgba(0, 0, 0, 0.6);
         text-decoration: underline;
       }
+
       &:before {
         cursor: pointer;
         content: 'ocultar';
@@ -158,4 +159,73 @@ $on-laptop:        800px;
       }
     }
   }
+
+  .carousel-wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    .carousel-container {
+      width: 100%;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    > a {
+      cursor: pointer;
+      display: inline-block;
+      position: absolute;
+      width: 2em;
+      text-align: center;
+      height: 2em;
+      line-height: 2em;
+      border-radius: 100%;
+      background-color: white;
+      box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+      color: lighten(black, 25%);
+      font-weight: 700;
+      font-size: 14pt;
+      top: 50%;
+      transform: translateY(-50%);
+      text-decoration: none;
+      transition: opacity .3s ease;
+      opacity: .3;
+
+      &:hover {
+        opacity: .9
+      }
+
+      &.p {
+        left: -1em;
+      }
+
+      &.n {
+        right: -1em;
+      }
+    }
+  }
+
+  .carousel {
+    position: relative;
+    display: table;
+    transition: transform .5s ease;
+
+    .slide {
+      display: table-cell;
+    }
+
+    .caption {
+      max-width: 55em;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 10pt;
+    }
+  }
+
+  #EngCarousel {
+    height: auto;
+    margin-top: 16pt;
+  }
 }
+

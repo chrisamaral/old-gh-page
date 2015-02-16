@@ -66,6 +66,7 @@ LazyLoad.js([
 
       setTimeout(function () { gInfo.open(gMap, gMarker); }, 1000);
     },
+
     birthday: function () {
       var FancyAge = React.createClass({displayName: "FancyAge",
 
@@ -89,8 +90,10 @@ LazyLoad.js([
 
       React.render(React.createElement(FancyAge, {date: new Date(parseInt(bdElem.dataset.timestamp, 10))}), bdElem);
     },
-    slide: function () {
-
+    carousel: function () {
+      LazyLoad.js(['/assets/js/cv.eng.carousel.js'], function () {
+        React.render(React.createElement(CVVideoCarousel, null), document.getElementById('EngCarousel'));
+      });
     }
   };
 
@@ -112,6 +115,7 @@ LazyLoad.js([
   });
 
   mount.birthday();
+  mount.carousel();
   window[rnd] = mount.map;
 
   LazyLoad.js(['https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAS3CRxKmaantIpaXw6NNXdF8d2O5dHvIE&callback=' + rnd])
