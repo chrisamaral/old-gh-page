@@ -133,7 +133,7 @@ permalink: /cv/
 <div id='tldr' class='box no-print' >
   <section>
     <h4>Descrição</h4>
-    Sou Christian, um programador com cinco anos de experiência na web.
+    Meu nome é Christian, sou um programador com cinco anos de experiência na web.
   </section>
 
   <section>
@@ -144,7 +144,7 @@ permalink: /cv/
       </li>
       <li>
         Você procura de um programador php que não precise do google pra
-        explicar a diferença entre array_map e array_reduce, GD e GUID,
+        explicar a diferença entre array_map e array_reduce, MVC e CMS, GD e GUID,
         composer e closure ou, <em>bônus:</em> entre REST, JSON e AJAX
       </li>
       <li>
@@ -155,15 +155,24 @@ permalink: /cv/
         Você procura alguém pra equipe cujo conhecimento de banco de dados vá além de <strong>mysqldump</strong> e <strong>SELECT *</strong>
       </li>
       <li>
-        Você precisa de um louco que tenha experiência com node em produção
-      </li>
-      <li>
-        Você precisa de um programador que não se perca ao usar algo além do <strong>git clone/pull/push</strong>
-      </li>
-      <li>
-        Você precisa de alguém que além de listar grunt, sass, "responsivo"/"""mobile-first""", react, bootstrap/foundation, gulp, less, node,
-        browserify, angular, bower, SPA, html5, AMD e milhares de outras keywords no currículo de fato saiba o que elas são e tenha
+        Você precisa de alguém que além de listar <em>grunt, sass, responsivo/mobile-first, react, bootstrap/foundation, gulp, less, node,
+        browserify, angular, bower, SPA, html5, AMD </em> e milhares de outras keywords no currículo de fato saiba o que elas são e tenha
         utilizado a maior parte disso em projetos de verdade
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h4>Diferencial</h4>
+    <ul>
+      <li>
+        experiência com node em produção
+      </li>
+      <li>
+        <strong>git</strong> além do <strong>clone/pull/push</strong>
+      </li>
+      <li>
+        Java, C e sólida base teórica e em algoritimos
       </li>
     </ul>
   </section>
@@ -176,7 +185,7 @@ permalink: /cv/
       <li>google-fu > 9000</li>
       <li>inglês.</li>
       <li>HN</li>
-      <li>interesse por haskel <sup><em>YOLO</em></sup></li>
+      <li>grande interesse por go e haskel <sup><em>YOLO</em></sup></li>
     </ul>
   </section>
 </div>
