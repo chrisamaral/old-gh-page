@@ -133,7 +133,7 @@ permalink: /cv/
 <div id='tldr' class='box no-print' >
   <section>
     <h4>Descrição</h4>
-    Meu nome é Christian, sou um programador com cinco anos de experiência na web.
+    Meu nome é Christian, tenho 24 anos, programo desde os 16 e trabalho com web desde os 19.
   </section>
 
   <section>
