@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "jsx": "jsx --harmony --extension jsx --watch assets/jsx assets/js",
+    "min": "uglifyjs assets/js/cv.js --output assets/js/cv.js && uglifyjs assets/js/cv.eng.carousel.js --output assets/js/cv.eng.carousel.js",
     "server": "jekyll serve --detach",
     "jekyll": "jekyll build --watch"
   }

@@ -52,9 +52,10 @@ permalink: /cv/
   <dt>Desenvolvedor</dt>
   <dt class='inline'>Tecnologias</dt>
   <dd><em>javascript, php, nodejs, APIs Google, java (android), MySQL, mongo, memcached, Oracle, munin</em></dd>
+  <dt>Na prática, eu era o único desenvolvedor da empresa</dt>
   <dd style='padding-left: 0'>
-    <div class='wrapped'><div id='EngCarousel'></div></div>
-    <a class='toggle'></a>
+    <div class='wrapped no-print'><div id='EngCarousel'></div></div>
+    <a class='toggle full'></a>
   </dd>
 </dl>
 
