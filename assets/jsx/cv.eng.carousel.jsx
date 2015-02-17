@@ -174,7 +174,7 @@
               && <a className='nv p' onClick={this._prevSlide}>{toLeft}</a>}
 
           </div>
-          <div className='caption' dangerouslySetInnerHTML={{__html: videos[this.state.currentSlide].caption}} />
+          <div className='box' dangerouslySetInnerHTML={{__html: videos[this.state.currentSlide].caption}} />
 
 
         </div>

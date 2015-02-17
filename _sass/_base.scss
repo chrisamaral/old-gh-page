@@ -219,14 +219,16 @@ pre {
     }
 }
 
-.fa{
-    color: white !important;
-    margin-right: 0.5em;
-}
 .post{
     display: block;
     max-width: 60em;
     margin: 1em auto;
+}
+footer {
+  .fa {
+    color: white !important;
+    margin-right: 0.5em;
+  }
 }
 .text-center{
     text-align: center;

@@ -114,6 +114,11 @@ LazyLoad.js([
     });
   });
 
+  document.getElementById('do-print').addEventListener('click', function (e) {
+    e.preventDefault();
+    window.print();
+  });
+
   mount.birthday();
   mount.carousel();
   window[rnd] = mount.map;

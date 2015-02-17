@@ -4,6 +4,15 @@ id: CVPage
 title: curriculum
 permalink: /cv/
 ---
+<nav class='quick-menu no-print'>
+  <a href='#' id='do-print' title='imprimir'>
+    <i class='fa fa-print'></i> imprimir
+  </a>
+  <a href='#tldr' title='pular para resumo'>
+    <i class='fa fa-forward'></i> resumo
+  </a>
+</nav>
+
 
 ##Christian Amaral dos Santos
 <dl>
@@ -13,7 +22,7 @@ permalink: /cv/
   </dd>
   <dt class='inline'>Residência</dt>
   <dd>Rio de Janeiro capital, Rio Comprido <br/>
-    <div  class='wrapped'>
+    <div class='wrapped no-print'>
       <small id='noMap'>
         mas isso é um status meramente temporário, <em>i.e. estou totalmente disposto a me mudar/viajar</em>
       </small>
@@ -47,6 +56,19 @@ permalink: /cv/
 </dl>
 
 ###experiência profissional
+<dl>
+  <dt><strong>Agência Kindle ~ 2014 -> Hoje</strong></dt>
+  <dt>Desenvolvedor Web; foco em front-end</dt>
+  <dt class='inline'>Tecnologias</dt>
+  <dd><em>javascript, php, nodejs, sass, MySQL, aws, CakePHP, drupal, firebase, elasticsearch, etc</em></dd>
+  <dt>Equipe de 6</dt>
+  <dd style='padding-left: 0'>
+    <div class='wrapped no-print'>
+      {...em progresso...}
+    </div>
+    <a class='toggle'></a>
+  </dd>
+</dl>
 <dl>
   <dt><strong>SIM TV ~ 2012 -> 2014</strong></dt>
   <dt>Desenvolvedor</dt>
@@ -103,5 +125,57 @@ permalink: /cv/
     <a class='toggle'></a>
   </dd>
 </dl>
+
+<div id='tldr' class='box no-print' >
+  <section>
+    <h4>Descrição</h4>
+    Sou Christian, um programador com cinco anos de experiência na web.
+  </section>
+
+  <section>
+    <h4>Requisitos</h4>
+    <ul>
+      <li>
+        Você precisa de um front-end que saiba pensar outside the <del>box</del> browser
+      </li>
+      <li>
+        Você procura de um programador php que não precise do google pra
+        explicar a diferença entre array_map e array_reduce, GD e GUID,
+        composer e closure ou, <em>bônus:</em> entre REST, JSON e AJAX
+      </li>
+      <li>
+        Você precisa de um desenvolvedor que não precise de um dia pra instalar o LAMP <br/>
+        <small><strong>bônus:</strong> mas que prefira um MEAN, react + express, ou que seja, um nginx + php-fpm</small>
+      </li>
+      <li>
+        Você procura alguém pra equipe cujo conhecimento de banco de dados vá além de <strong>mysqldump</strong> e <strong>SELECT *</strong>
+      </li>
+      <li>
+        Você precisa de um louco que tenha experiência com node em produção
+      </li>
+      <li>
+        Você precisa de um programador que não se perca ao usar algo além do <strong>git clone/pull/push</strong>
+      </li>
+      <li>
+        Você precisa de alguém que não só liste grunt, sass, react, gulp, less, node, browserify, angular, bower, SPA, html5,
+        AMD e milhares de outras keywords no currículo mas que de fato saiba o que elas são e tenha
+        utilizado a maior parte disso em projetos de verdade
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h4><i class='fa fa-heart'></i> Benefícios</h4>
+    <ul>
+      <li>senso de humor</li>
+      <li>proatividade</li>
+      <li>google-fu > 9000</li>
+      <li>inglês.</li>
+      <li>HN</li>
+      <li>interesse por haskel <sup><em>YOLO</em></sup></li>
+    </ul>
+  </section>
+</div>
+
 
 <script src='/assets/js/cv.js'></script>
