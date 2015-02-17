@@ -9,7 +9,7 @@ permalink: /cv/
     <i class='fa fa-print'></i> imprimir
   </a>
   <a href='https://github.com/chrisamaral'>
-    <i class='fa fa-github'></i> prova real
+    <i class='fa fa-github'></i> preview
   </a>
   <a href='#tldr' title='pular para resumo'>
     <i class='fa fa-forward'></i> resumo
