@@ -8,6 +8,9 @@ permalink: /cv/
   <a href='#' id='do-print' title='imprimir'>
     <i class='fa fa-print'></i> imprimir
   </a>
+  <a href='https://github.com/chrisamaral'>
+    <i class='fa fa-github'></i> prova real
+  </a>
   <a href='#tldr' title='pular para resumo'>
     <i class='fa fa-forward'></i> resumo
   </a>
@@ -60,7 +63,7 @@ permalink: /cv/
   <dt><strong>Agência Kindle ~ 2014 -> Hoje</strong></dt>
   <dt>Desenvolvedor Web; foco em front-end</dt>
   <dt class='inline'>Tecnologias</dt>
-  <dd><em>javascript, php, nodejs, sass, MySQL, aws, CakePHP, drupal, firebase, elasticsearch, etc</em></dd>
+  <dd><em>javascript (+nodejs), php, sass, bootstrap, phonegap/cordova, semantic-ui, MySQL, aws, CakePHP, drupal, firebase, elasticsearch, etc</em></dd>
   <dt>Equipe de 6</dt>
   <dd style='padding-left: 0'>
     <div class='wrapped no-print'>
@@ -69,6 +72,7 @@ permalink: /cv/
     <a class='toggle'></a>
   </dd>
 </dl>
+
 <dl>
   <dt><strong>SIM TV ~ 2012 -> 2014</strong></dt>
   <dt>Desenvolvedor</dt>
@@ -157,8 +161,8 @@ permalink: /cv/
         Você precisa de um programador que não se perca ao usar algo além do <strong>git clone/pull/push</strong>
       </li>
       <li>
-        Você precisa de alguém que não só liste grunt, sass, react, gulp, less, node, browserify, angular, bower, SPA, html5,
-        AMD e milhares de outras keywords no currículo mas que de fato saiba o que elas são e tenha
+        Você precisa de alguém que além de listar grunt, sass, "responsivo"/"""mobile-first""", react, bootstrap/foundation, gulp, less, node,
+        browserify, angular, bower, SPA, html5, AMD e milhares de outras keywords no currículo de fato saiba o que elas são e tenha
         utilizado a maior parte disso em projetos de verdade
       </li>
     </ul>
