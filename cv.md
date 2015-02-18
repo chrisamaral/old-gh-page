@@ -156,7 +156,7 @@ permalink: /cv/
       </li>
       <li>
         Você precisa de alguém que além de listar <em>grunt, sass, responsivo/mobile-first, react, bootstrap/foundation, gulp, less, node,
-        browserify, angular, bower, SPA, html5, AMD </em> e milhares de outras keywords no currículo de fato saiba o que elas são e tenha
+        browserify, angular, bower, SPA, html5, AMD </em> e milhares de outras buzzwords no currículo de fato saiba o que elas são e tenha
         utilizado a maior parte disso em projetos de verdade
       </li>
     </ul>
