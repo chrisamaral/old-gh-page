@@ -46,7 +46,7 @@ permalink: /cv/
     <p class='wrapped'>foi o início do meu <del>sofrimento</del> interesse por programação começou</p>
     <a class='toggle'></a>
   </dd>
-  <dt><strong>UFRJ - Ciência da Computação 2009 - 2012</strong></dt>
+  <dt><strong>UFF - Ciência da Computação 2009 - 2012</strong></dt>
   <dd class='zip'>
     <p class='wrapped'>
       apesar de não ter me formado, valorizo muito essa fase. devo muito da minha base teórica a esses anos
@@ -60,14 +60,14 @@ permalink: /cv/
 
 ###experiência profissional
 <dl>
-  <dt><strong>Agência Kindle ~ 2014 -> Hoje</strong></dt>
+  <dt><strong>Agência Kindle ~ 2014 -> Abril, 2015</strong></dt>
   <dt>Desenvolvedor Web; foco em front-end</dt>
   <dt class='inline'>Tecnologias</dt>
   <dd><em>javascript (+nodejs), php, sass, bootstrap, phonegap/cordova, semantic-ui, MySQL, aws, CakePHP, drupal, firebase, elasticsearch, etc</em></dd>
   <dt>Equipe de 6</dt>
   <dd style='padding-left: 0'>
     <div class='wrapped no-print'>
-      {...em progresso...}
+      {...em breve...}
     </div>
     <a class='toggle'></a>
   </dd>
